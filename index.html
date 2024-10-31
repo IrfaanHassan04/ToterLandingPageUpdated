@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Options Section -->
+    <div class="container-fluid mt-3 d-flex justify-content-end gap-3">
+      <div class="d-flex align-items-center gap-2">
+        <img src="images/location.png" alt="Location Icon" width="20" height="20">
+        <span>Find A Rep</span>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <img src="images/search.png" alt="Search Icon" width="20" height="20">
+        <input type="text" id="search-bar" class="form-control" placeholder="Search...">
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <img src="images/phone.png" alt="Phone Icon" width="20" height="20">
+        <a href="tel:+1800-424-0422" class="phone-link">800-424-0422</a>
+      </div>
+    </div>
+
+    <!-- Menu Buttons Section -->
+    <div id="menu-buttons" class="mt-4">
+      <div class="menu-button" onclick="window.location.reload();">Home</div>
+      <div class="menu-button" onclick="window.location.href='https://www.toter.com/products';">Products</div>
+      <div class="menu-button" onclick="window.location.href='https://www.toter.com/industries';">Industries</div>
+      <div class="menu-button" onclick="window.location.href='https://www.toter.com/services';">Services</div>
+      <div class="menu-button" onclick="window.location.href='https://www.toter.com/about-us';">About Us</div>
+    </div>
+
+    <!-- Large Green Boxes Section -->
+    <div id="large-boxes" class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.toter.com/products/homeowners" target="_blank" class="btn-large-box">
+            <img src="images/house.png" alt="House Icon">
+            <span>Homeowners</span>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.toter.com/products/municipalities-government" target="_blank" class="btn-large-box">
+            <img src="images/government.png" alt="Government Icon">
+            <span>Municipalities and Government</span>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.toter.com/products/waste-haulers" target="_blank" class="btn-large-box">
+            <img src="images/truck.png" alt="Truck Icon">
+            <span>Waste Haulers</span>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.toter.com/products/industrial-commercial-institutional" target="_blank" class="btn-large-box">
+            <img src="images/industry.png" alt="Industry Icon">
+            <span>Industrial, Commercial, and Institutional</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra Large Box Below -->
+    <div class="container mt-5 py-4 bg-light rounded">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="images/carts.png" alt="Carts Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h1 class="extra-large-box-text">There’s a Toter® to Meet Everyone’s Needs</h1>
+          <p class="extra-large-box-paragraph">Your needs are simple — collecting and transporting waste from 
+            its source to the next point in the waste stream. Toter is the waste container manufacturer, 
+            trash can manufacturer and dumpster manufacturer that builds convenient, durable products with 
+            your needs in mind.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Light Gray Box Section -->
+    <div class="container-fluid bg-secondary py-5 mt-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <img src="images/recyclebin.jpg" alt="Recycle Bin" class="img-fluid rounded">
+          </div>
+          <div class="col-md-8">
+            <h3>Garbage in, Garbage Out</h3>
+            <p>No one wants to deal with trash, but it must be contained and hauled away. 
+              Out of sight and out of mind are our goals, and Toter meets these challenges with the 
+              most convenient and durable carts on the market. Our products are guaranteed to meet or 
+              exceed the needs of the municipal, retail/residential, and pro/specialty markets.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/findingtreasure.jpg" alt="Finding Treasure" class="img-fluid rounded">
+          </div>
+          <div class="col-md-8">
+            <h3>Finding Treasure in Trash</h3>
+            <p>Toter gets our customers the products and services they want, when they want them.
+               We offer numerous services, including project planning, data-driven cart management, 
+               assembly and delivery, and cart maintenance to help you start or enhance a collection program.
+                Our Customer Support Group is a real treasure — and we’re here for you!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services and About Us Buttons -->
+    <div id="action-buttons">
+      <button class="lime-button" onclick="window.location.href='https://www.toter.com/node/141';">View Our Services</button>
+      <button class="lime-button" onclick="window.location.href='https://www.toter.com/node/3';">More About Us</button>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="container text-center mt-5">
+      <h2>Social Media</h2>
+      <ul class="list-unstyled">
+        <li class="mb-2"><button class="btn btn-success px-4 py-2" onclick="location.href='tel:+1800-424-0422'">Phone: +1 800-424-0422</button></li>
+        <li class="mb-2"><button class="btn btn-success px-4 py-2" onclick="location.href='https://www.facebook.com/ToterCarts/'">Facebook</button></li>
+        <li class="mb-2"><button class="btn btn-success px-4 py-2" onclick="location.href='https://www.linkedin.com/showcase/toter/'">LinkedIn</button></li>
+        <li><button class="btn btn-success px-4 py-2" onclick="location.href='https://www.youtube.com/user/TheWastequip'">YouTube</button></li>
+      </ul>
+    </div>
+  </body>
+</html>
